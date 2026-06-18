@@ -84,7 +84,7 @@ and reused later for the simulation.
 ## How to run
 
 1. Download `results.csv` from the dataset above.
-2. Open `world_cup_step1.py` and set `DATA_PATH` to the file's location on your
+2. Open `match-predictor.py` and set `DATA_PATH` to the file's location on your
    computer:
 
    ```python
