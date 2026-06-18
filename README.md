@@ -94,7 +94,7 @@ and reused later for the simulation.
 3. Run it:
 
    ```bash
-   python world_cup_step1.py
+   python match-predictor.py
    ```
 
 You should see the two models' scores printed, followed by example predictions.
@@ -116,9 +116,4 @@ The output order follows the team order you pass in:
 falls back to a default rating of 1500. For example, use `"United States"`, not
 `"USA"`.
 
-## Next steps
 
-- Build the tournament simulator: play the 2026 bracket thousands of times using
-  `predict_match`, then count how often each team wins to get championship odds.
-- Optionally add more features (recent form, goal difference) and a host-nation
-  home advantage.
